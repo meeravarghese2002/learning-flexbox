@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+  font-family: HankenGrotesk-Medium;
+  src: url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: HankenGrotesk-Bold;
+  src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: HankenGrotesk-Extra-Bold;
+  src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+.main {
+  display: flex;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+.result {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  font-family: HankenGrotesk-Medium;
+  border-radius: 2rem;
+  min-width: 300px;
+  max-width: 300px;
+  display: grid;
+  justify-items: center;
+}
+.result-your-result {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  font-family: HankenGrotesk-Bold;
+}
+.result-score {
+  color: rgba(255, 255, 255, 0.6);
+  min-height: 10rem;
+  max-height: 20rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.result-score-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.result-score-grid-num span {
+  font-size: 4rem;
+  color: white;
+  font-family: HankenGrotesk-Extra-Bold;
+}
+.result-score-grid-of p {
+  margin-top: 0rem;
+  text-align: center;
+}
+.result-great {
+  color: rgb(255, 255, 255);
+  font-family: HankenGrotesk-Extra-Bold;
+  font-size: 1.8rem;
+}
+.result-great p {
+  margin: 2rem 0 0 0;
+}
+.result-percentage {
+  margin: 0 3rem 0 3rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.result-percentage p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
