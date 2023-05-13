@@ -90,4 +90,59 @@ body {
   margin-bottom: 3rem;
 }
 
-
+.summary {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  font-family: HankenGrotesk-Medium;
+  min-width: 300px;
+  max-width: 300px;
+  display: grid;
+}
+.summary-summary {
+  font-size: 1.2rem;
+  font-family: HankenGrotesk-Bold;
+  margin-left: 2rem;
+}
+.summary-item {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+.summay-item-left-div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.summary-item svg {
+  align-self: center;
+  justify-self: start;
+  margin-left: 0.5rem;
+}
+.summary-item-right {
+  margin-right: 1rem;
+}
+.summary-item-right span {
+  color: rgb(0, 0, 0);
+  font-family: HankenGrotesk-Bold;
+}
+.button {
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 2rem;
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
+.button:hover {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+.button p {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-family: HankenGrotesk-Bold;
+}
